@@ -1,3 +1,4 @@
+//Dictionary Function
 function my_Dictionary() {
     var Vehicle = {
         Brand:"Audi R8",
@@ -5,6 +6,6 @@ function my_Dictionary() {
         Horsepower: "602 HP",
         Torque: "413 lb-ft",
     };
-    delete Vehicle.Horsepower;
+    delete Vehicle.Horsepower; //delete Operator
     document.getElementById("Dictionary").innerHTML = Vehicle.Horsepower;
 }
