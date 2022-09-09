@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(29, 44, 73);
+}
+
+h1 {
+    font-family: cursive;
+    color:#c7fdff;
+    text-align: center;
+    border: 5px groove rgb(255, 255, 255) ;
+}
+
+h3 {
+    color:#c7fdff;
+    text-align: center;
+}
+
+div {
+    font-family: cursive;
+    color: bisque;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+.head-main {
+    text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
+    font-variant: small-caps;
+    color:#c7fdff;
+    letter-spacing: 5pt;
+    word-spacing: 21pt;
+    font-size: 4.5em;
+    text-align: left;
+    font-family: cursive;
+    line-height: 2;
+    font-weight: 900;
+    border: 5px groove rgb(255, 255, 255) ;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+#home {
+    background: url(../images/pizza.jpeg)no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-background-size: cover ;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    display: block;
+    height: auto;
+    padding-top: 350px; /* This is spacer before the Main title Logo */
+    padding-bottom: 500px; /* This is spacer after the Main title Logo*/
+    color: #fff;
+    z-index: 0;
+}
+
+#menuBG {
+    height: 470px;
+    background-color: rgba(29, 44, 73, 0.281);
+    padding-top: 50px;
+    margin-top: 50px;
+    position: relative;
+    padding-left: 150px;
+    padding-right: 150px;
+    bottom: 0;
+}
+
+#frmMenu {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: 200px;
+}
+
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+.left {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.438);
+    border: 5px groove rgb(255, 255, 255) ;
+}
+
+.center {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.438);
+    border: 5px groove rgb(255, 255, 255) ;
+    float: left;
+}
+
+.right {
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+    float: right;
+    border: 5px groove rgb(255, 255, 255) ;
+    background-color: rgba(0, 0, 0, 0.438);
+}
+
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    display: inline-block;
+}
+
+#cart {
+    margin: 150px auto;
+    height: 100px;
+    bottom: 0px;
+}
+
+#btnOrder {
+    margin: 10px 0px 0px 0px;
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.438);
+    color:#c7fdff;
+    display: block;
+    float: right;
+}
+
+#footer {
+    background-color: rgba(41, 42, 44, 0.925);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 1);
+    padding: 20px 50px 20px 50px;
+    text-align: right;
+    bottom: 0;left: 0; z-index: 9;
+    width: 100%;
+    overflow: hidden;
+}
